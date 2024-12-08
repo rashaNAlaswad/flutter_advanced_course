@@ -9,7 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-    # State management
+
+  # Splash Screen
+  flutter_native_splash: ^2.4.3
+  
+  # State management
   flutter_bloc: ^8.1.6
 
   # Code generator (mainly used with cubit & retrofit).
@@ -53,9 +57,6 @@ dev_dependencies:
   # Code generator
   build_runner: ^2.4.13
   json_serializable: ^6.9.0
-
-  # Splash Screen
-  flutter_native_splash: ^2.4.3
 
 flutter:
   uses-material-design: true
