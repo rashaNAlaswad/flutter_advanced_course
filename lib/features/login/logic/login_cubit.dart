@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../data/models/login_request_body.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import '../data/models/login_request_body.dart';
 import '../data/repository/login_repository.dart';
 import 'login_state.dart';
 
